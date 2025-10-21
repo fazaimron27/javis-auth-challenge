@@ -2,6 +2,12 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ThemeToggle } from "@/components/theme-toggle"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Home - Javis Auth Challenge",
+  description: "Welcome to the authentication challenge",
+}
 
 export default function Home() {
   return (
