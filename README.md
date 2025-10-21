@@ -112,7 +112,7 @@ DATABASE_URL="mysql://root:password@localhost:3306/auth_db"
 JWT_SECRET="your-super-secret-jwt-key-change-in-production"
 
 # JWT expiration time in seconds (default: 24 hours)
-JWT_EXPIRES_IN="86400"npx next --version
+JWT_EXPIRES_IN="86400"
 
 # Set to "production" in production environments
 NODE_ENV="development"
