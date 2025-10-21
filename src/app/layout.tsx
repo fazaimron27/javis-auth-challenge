@@ -26,8 +26,8 @@ const geistMono = Geist_Mono({
  * Defines the default title and description for SEO and browser tabs
  */
 export const metadata: Metadata = {
-  title: "Login - Dashboard",
-  description: "Login to your dashboard",
+  title: "Javis Auth Challenge",
+  description: "This challenge is designed to test your skills in building a secure and user-friendly authentication system using Next.js, React, and TypeScript.",
 };
 
 /**
